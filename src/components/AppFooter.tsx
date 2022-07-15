@@ -1,9 +1,5 @@
 function AppFooter(): JSX.Element {
-    return (
-    <>
-      
-    </>
-    );
-  }
-  
-  export default AppFooter;
+  return <></>;
+}
+
+export default AppFooter;

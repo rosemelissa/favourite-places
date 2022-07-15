@@ -4,11 +4,11 @@ import AppFooter from "./components/AppFooter";
 
 function App(): JSX.Element {
   return (
-  <>
-    <AppHeader />
-    <MainContent />
-    <AppFooter />
-  </>
+    <>
+      <AppHeader />
+      <MainContent />
+      <AppFooter />
+    </>
   );
 }
 

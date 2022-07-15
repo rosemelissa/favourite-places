@@ -1,9 +1,9 @@
 function AppHeader(): JSX.Element {
-    return (
+  return (
     <>
       <h1>Melissa's favourite places!</h1>
     </>
-    );
-  }
-  
-  export default AppHeader;
+  );
+}
+
+export default AppHeader;
