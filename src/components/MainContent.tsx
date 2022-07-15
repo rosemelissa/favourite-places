@@ -1,9 +1,10 @@
 import Place from "./Place";
 import { PlaceProps } from "../utils/interfaces";
+import Navbar from "./Navbar";
 
 const placesArray: PlaceProps[] = [
   {
-    title: "Bathwick fields",
+    title: "Bathwick Fields",
     location: { placeName: "Bath", countryName: "UK" },
     image: {
       url: "https://lh3.googleusercontent.com/yhJpwB0eT4STImGgzA0u-9U6VHBk8Nu4ct08u_CUEAiNTcZBlg033VlgXuU3Tobvp5njQkAJOhxDFCB8p2v2vZFjxupduTnl3Pkj8sFJeJ1f7BG-W4jTdsWqM4fqYwWdyCoWAPJMVrs=w2400",
@@ -15,6 +16,7 @@ const placesArray: PlaceProps[] = [
       "Wild rabbits",
       "Part of the Bath Skyline walk",
     ],
+    id: "#bathwick-fields",
   },
   {
     title: "Port Meadow",
@@ -25,6 +27,7 @@ const placesArray: PlaceProps[] = [
     },
     mapURL: "https://goo.gl/maps/pgH2LLWywin6XZBw5",
     description: ["Beautiful sunsets", "Ponies", "Great for walks"],
+    id: "#port-meadow",
   },
   {
     title: "Worcester College Dance Studio",
@@ -39,6 +42,7 @@ const placesArray: PlaceProps[] = [
       "Spent time there with amazing people",
       "Great place for dancing to Kpop",
     ],
+    id: "#worcester-college-dance-studio",
   },
   {
     title: "Madrid",
@@ -53,11 +57,17 @@ const placesArray: PlaceProps[] = [
       "Fantastic art galleries",
       "Warm and sunny",
     ],
+    id: "#madrid",
   },
 ];
 
 function MainContent(): JSX.Element {
-  return <>{placesArray.map(Place)}</>;
+  return (
+    <>
+      <ul>{placesArray.map(Navbar)}</ul>
+      {placesArray.map(Place)}
+    </>
+  );
 }
 
 export default MainContent;
