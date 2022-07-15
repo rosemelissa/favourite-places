@@ -3,22 +3,34 @@ interface Location {
     countryName: string;
 }
 
+interface Image {
+    url: string;
+    alt: string;
+}
+
 interface PlaceProps {
     title: string;
     location: Location;
-    imageURL: string;
+    image: Image;
     mapURL: string;
-    description: string;
+    description: [string, string, string];
 }
 
 function Place(props: PlaceProps): JSX.Element {
     return (
         <>
-            <img src={props.imageURL} />
+            <img src={props.image.url} alt={props.image.alt} />
             <h2>{props.title}</h2>
             <h3>{props.location.placeName}, {props.location.countryName}</h3>
-            <p>{props.description}</p>
+            <p>Why I like it:</p>
+            <ul>
+                <li>{props.description[0]}</li>
+                <li>{props.description[1]}</li>
+                <li>{props.description[2]}</li>
+            </ul>
             <a href={props.mapURL}>Google Maps link</a>
         </>
     )
 }
+
+export default Place;
