@@ -14,6 +14,7 @@ interface PlaceProps {
   image: Image;
   mapURL: string;
   description: [string, string, string];
+  id: string;
 }
 
 export type { Location, Image, PlaceProps };
