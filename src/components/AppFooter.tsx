@@ -3,7 +3,7 @@ function AppFooter(): JSX.Element {
     <>
       
     </>
-  
+    );
   }
   
   export default AppFooter;
