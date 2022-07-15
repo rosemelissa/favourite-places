@@ -18,8 +18,8 @@ function MainContent(): JSX.Element {
         ]}
       />
       <Place
-        title={"Bubble Tea Shop"}
-        location={{ placeName: "Bath", countryName: "UK" }}
+        title={"Port Meadow"}
+        location={{ placeName: "Oxford", countryName: "UK" }}
         image={{
           url: "https://lh3.googleusercontent.com/q8o7BtHV8p6slQfQGXfoAR_QWizf2h6-uDATylSsgrQERAfYAdtKpdnrH2kl3q7hVFre5lH8GJ6RmAs4eqLbJhZfoDDnOtOakpxn_FJMwHAmXcbBST5b0ENMHbnzGBTGPY87r-sy8Cw=w2400",
           alt: "Grey skies and an orange sunset reflected in a lake",
