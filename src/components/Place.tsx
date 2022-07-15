@@ -1,20 +1,4 @@
-interface Location {
-  placeName: string;
-  countryName: string;
-}
-
-interface Image {
-  url: string;
-  alt: string;
-}
-
-interface PlaceProps {
-  title: string;
-  location: Location;
-  image: Image;
-  mapURL: string;
-  description: [string, string, string];
-}
+import { PlaceProps } from "../utils/interfaces";
 
 function Place(props: PlaceProps): JSX.Element {
   return (
