@@ -1,0 +1,47 @@
+/* [
+  "#99b898",
+  "#fecea8",
+  "#ff847c",
+  "#e84a5f",
+  "#2a363b"
+] */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(#e84a5f, #ff847c) ;
+    color: #2a363b;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+img {
+    width: 400px;
+    border: #99b898 5px solid;
+}
+
+h1, h3 {
+    color: #fecea8;
+    text-shadow: 0px 0px 4px #2a363b;
+}
+
+h2 {
+    background: #99b898;
+    display: inline;
+    padding: 5px;
+}
+
+li {
+    text-align: left;
+}
+
+a {
+    color: #2a363b;
+}
+
+.place {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
