@@ -17,6 +17,8 @@ const placesArray: PlaceProps[] = [
       "Part of the Bath Skyline walk",
     ],
     id: "#bathwick-fields",
+    mapEmbed:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4384.0176913790165!2d-2.3458841600594225!3d51.376706308468805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487181a798319f4b%3A0x841b28819c1f2e97!2sBath%20Skyline!5e0!3m2!1sen!2suk!4v1658080940449!5m2!1sen!2suk",
   },
   {
     title: "Port Meadow",
@@ -28,6 +30,8 @@ const placesArray: PlaceProps[] = [
     mapURL: "https://goo.gl/maps/pgH2LLWywin6XZBw5",
     description: ["Beautiful sunsets", "Ponies", "Great for walks"],
     id: "#port-meadow",
+    mapEmbed:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2468.8830262713245!2d-1.2872741843536497!3d51.77174557967939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876c4303b556f1f%3A0xe05f8b081a42329a!2sPort%20Meadow%2C%20Oxford!5e0!3m2!1sen!2suk!4v1658081614165!5m2!1sen!2suk",
   },
   {
     title: "Worcester College Dance Studio",
@@ -43,6 +47,8 @@ const placesArray: PlaceProps[] = [
       "Great place for dancing to Kpop",
     ],
     id: "#worcester-college-dance-studio",
+    mapEmbed:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2469.8065231046853!2d-1.2654438843543334!3d51.75486137967652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876c6a3d962436f%3A0x568b10070f0ce99d!2sWorcester%20College!5e0!3m2!1sen!2suk!4v1658081680896!5m2!1sen!2suk",
   },
   {
     title: "Madrid",
@@ -58,6 +64,8 @@ const placesArray: PlaceProps[] = [
       "Warm and sunny",
     ],
     id: "#madrid",
+    mapEmbed:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18882.827253614534!2d-3.6997783968734588!3d40.415385289559026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42289ff511827b%3A0x9e6c2716b524a3ae!2sEl%20Retiro%20Park!5e0!3m2!1sen!2suk!4v1658081748376!5m2!1sen!2suk",
   },
 ];
 

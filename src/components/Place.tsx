@@ -15,6 +15,16 @@ function Place(props: PlaceProps): JSX.Element {
         <li>{props.description[2]}</li>
       </ul>
       <a href={props.mapURL}>Google Maps link</a>
+      <iframe
+        src={props.mapEmbed}
+        title={props.title}
+        width="400"
+        height="300"
+        style={{ border: 0 }}
+        allowFullScreen={false}
+        loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"
+      ></iframe>
     </div>
   );
 }
