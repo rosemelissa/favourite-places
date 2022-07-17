@@ -15,6 +15,7 @@ interface PlaceProps {
   mapURL: string;
   description: [string, string, string];
   id: string;
+  mapEmbed: string;
 }
 
 export type { Location, Image, PlaceProps };
